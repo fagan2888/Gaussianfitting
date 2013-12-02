@@ -43,7 +43,7 @@ R_s = (x-x_avg)**2+(y-y_avg)**2
 
 #np.where(R_s>19.0)
 
-'''
+
 y2,x2 = np.where(im!=255)
 L = np.array([y2-y_avg,x2-x_avg])
 
@@ -89,5 +89,5 @@ mpl.pyplot.plot(x,y)
 mpl.pyplot.show()
 
 
-'''
+
 
